@@ -1,4 +1,4 @@
-# JWT Crafter Kong plugin
+# Kong Plugin - JWT Crafter Kong Enterprise Edition
 
 [![Build Status](https://travis-ci.org/foodora/kong-plugin-jwt-crafter.svg?branch=master)](https://travis-ci.org/foodora/kong-plugin-jwt-crafter)
 
