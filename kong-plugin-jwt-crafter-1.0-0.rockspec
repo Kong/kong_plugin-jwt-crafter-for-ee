@@ -1,9 +1,9 @@
-package = "kong-plugin-jwt-crafter"
-version = "1.0-0"
+package = "kong-plugin-jwt-crafter-for-ee"
+version = "1.1"
 
 source = {
-  url = "git://github.com/foodora/kong-plugin-jwt-crafter",
-  tag = "v1.0"
+  url = "git://github.com/nragokong/kong-plugin-jwt-crafter-for-ee",
+  tag = "v1.1"
 }
 
 description = {
