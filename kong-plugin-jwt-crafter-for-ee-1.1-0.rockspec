@@ -1,5 +1,5 @@
 package = "kong-plugin-jwt-crafter-for-ee"
-version = "1.1"
+version = "1.1-0"
 
 source = {
   url = "git://github.com/nragokong/kong-plugin-jwt-crafter-for-ee",
