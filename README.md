@@ -1,4 +1,4 @@
-# Kong Plugin - JWT Crafter Kong Enterprise Edition
+# Kong Plugin - JWT Crafter for Kong Enterprise Edition
 
 ![Luarocks](https://img.shields.io/luarocks/v/nickong/kong-plugin-jwt-crafter-for-ee.svg)
  
@@ -12,7 +12,9 @@ This plugin needs two other plugins to work:
 
 It also uses the ACL plugin and embeds all the consumer ACLs inside the token claims section. Upstream services can then decode the token and use the ACLs from the token to authorize users within app code.
 
-Currently testing against Kong Enterprise 0.34
+## Kong Compatibility
+
+This plugin has only been tested with Kong Enterprise version 0.34-1. This plugin has not been tested with Kong OSS.
 
 ## Example
 
