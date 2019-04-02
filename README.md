@@ -1,7 +1,7 @@
 # Kong Plugin - JWT Crafter Kong Enterprise Edition
 
-[![Build Status](https://travis-ci.org/foodora/kong-plugin-jwt-crafter.svg?branch=master)](https://travis-ci.org/foodora/kong-plugin-jwt-crafter)
-
+![Luarocks](https://img.shields.io/luarocks/v/nickong/kong-plugin-jwt-crafter-for-ee.svg)
+ 
 This plugin adds the possibility to generate a JWT token within Kong itself, eliminating the need for a upstream service doing the token generation.
 
 The JWT plugin included in Kong has two main features: storing JWT secrets per consumer and verifying tokens when proxying to upstream services. It is missing the capability to generate a token based on successful authentication.
