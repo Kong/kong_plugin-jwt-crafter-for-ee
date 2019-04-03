@@ -81,7 +81,7 @@ Decoded token:
 
 Install the rock when building your Kong image/instance:
 ```
-luarocks install kong-plugin-jwt-crafter
+luarocks install kong-plugin-jwt-crafter-for-ee
 ```
 
 Add the plugin to your `custom_plugins` section in `kong.conf`, the `KONG_CUSTOM_PLUGINS` is also available.
