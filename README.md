@@ -77,18 +77,25 @@ Decoded token:
 }
 ```
 
-## Installation
+## Installation on Kong Enterprise
+
+Verify that you have `git` installed on your Kong host or container. For the Kong Docker image on Alpine, run the following Alpine install command:
+
+```
+apk add --no-cache git
+```
 
 Install the rock when building your Kong image/instance:
 ```
 luarocks install kong-plugin-jwt-crafter-for-ee
 ```
 
-Add the plugin to your `custom_plugins` section in `kong.conf`, the `KONG_CUSTOM_PLUGINS` is also available.
-
+Add the plugin to your `custom_plugins` section in `kong.conf`, or the  `KONG_CUSTOM_PLUGINS` environment variable.
 ```
 custom_plugins = jwt-crafter
 ```
+
+Please note: If installing on a Docker container, it is advised to install the rock on the container first, and then image that container. Use the new image with the `KONG_CUSTOM_PLUGINS` environment variable during startup.
 
 ## Configuration
 
